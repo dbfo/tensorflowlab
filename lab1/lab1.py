@@ -17,6 +17,7 @@ node3 = tf.add(node1, node2)
 
 sess= tf.Session()
 
+print(node3)
 print("sess.run(node1, node2) : ", sess.run([node1, node2]))
 print("sess.run(node3)", sess.run(node3))
 

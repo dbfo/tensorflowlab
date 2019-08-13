@@ -9,7 +9,7 @@ b = tf.Variable(tf.random_normal([1]), name = 'bias')
 
 # hypothesis is for linear model
 hypothesis = x_train*W+b
-
+# cost funtion
 cost = tf.reduce_mean(tf.square(hypothesis - y_train))
 
 #gradient algorithm
